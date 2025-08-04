@@ -5,7 +5,10 @@
   "scripts": {},
   "private": true,
   "devDependencies": {
+    "@nx/eslint": "^21.3.11",
     "@nx/vite": "^21.3.11",
+    "eslint": "~8.57.0",
     "nx": "21.3.11"
-  }
+  },
+  "dependencies": {}
 }

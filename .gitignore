@@ -1,5 +1,5 @@
 # Node
-node_modules
+/node_modules
 pnpm-lock.yaml
 
 # Build artifacts
@@ -19,3 +19,8 @@ pnpm-lock.yaml
 # Nx-specific files
 .nx/cache
 .nx/project_graph.json
+.nx-results
+
+# ESLint and Prettier
+.eslintcache
+.prettiercache

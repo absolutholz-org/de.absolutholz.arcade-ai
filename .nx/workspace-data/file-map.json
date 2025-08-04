@@ -2,7 +2,14 @@
   "version": "6.0",
   "nxVersion": "21.3.11",
   "pathMappings": {},
-  "nxJsonPlugins": [],
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ],
   "fileMap": {
     "projectFileMap": {},
     "nonProjectFiles": [
