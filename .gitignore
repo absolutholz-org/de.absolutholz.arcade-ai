@@ -1,0 +1,21 @@
+# Node
+node_modules
+pnpm-lock.yaml
+
+# Build artifacts
+/dist
+/tmp
+/cache
+.tsbuildinfo
+
+# IDE files
+.idea
+.vscode
+
+# Environment variables
+.env
+.env.local
+
+# Nx-specific files
+.nx/cache
+.nx/project_graph.json
